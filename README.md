@@ -6,4 +6,6 @@ You can view the Demo here: https://pchitantawebsite.netlify.app/
 I am aware of Frameworks like Bootstrap, React, Angular, Vue.js, etc. 
 
 I know that it is easier to create websites using Frameworks. My intent behind using HTML without frameworks is to learn the language from scratch.
-My next objective is getting to know the Bootstrap Framework. 
+My next objective is to learn how to operate the Bootstrap Framework.
+
+Contact: patrickchitanta@gmx.de
