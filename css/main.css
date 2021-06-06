@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Custom Properties */
+
+:root {
+    --leading: 1.5em;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;   
+    
+}
+
+h1 {
+    font-weight: bold;
+    padding: 2em;
+    font-size: 2rem;
+    
+}
+
+.hero-bg {
+    background: url(../images/blueflowersbg.jpg);
+    background-position: 0%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.right-col {
+    text-align: center;
+    height: 10%;
+    font-weight: 50%;
+    font-size: 10;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.Fundamentals {
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+.Fundamentals-Title {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0%;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.Fundamentals p {
+    text-align: center;
+    margin-top: 1em;
+    line-height: var(--leading);
+    font-size: 1rem;
+    display: table;
+}
+
+
+.hero-bg a {
+    color: rgb(212, 183, 129);
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+input[type=button] {
+    background-color: #e78b95;
+    border: none;
+    width: 50%;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #ce7b85;
+  
+
+}
+
+img {
+    margin-left: -1.8em;
+}
+
+.topics {
+    padding-top: 8em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+.topics img {
+    max-height: 50%;
+    max-width: 50%;
+    cursor: pointer;
+}
+
+.Topic-E {
+     text-align: center;
+
+    
+}
+.Topic-S {
+    padding-top: 6em;
+    text-align: center;
+    display: block;
+}
+.Topic-LM {
+    padding-top: 6em;
+    text-align: center;
+    display: block;
+}
+.Topic-M {
+    display: block;
+    padding-top: 6em;
+    text-align: center;
+    
+}
+
+.Topic-img {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.top {
+    margin-bottom: 1em;
+}
+
+h6 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.topics a {
+    font-weight: bold;
+    display: block;
+}
+
+.top {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.Fundamentals {
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.topics {
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@media (min-width: 730px) {
+    .top p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+   
+}
+
+@media (min-width: 930px) {
+    .Fundamentals-Title {
+        display: flex;
+        
+    }
+    .Fundamentals p {
+        text-align: left;
+        margin-top: 5em;
+        width: 100%;
+        margin-left: 8em;
+    }
+    .Fundamentals-Title img {
+        width: 150%;
+        margin-left: -3em;
+        margin-right: 3em;
+    }
+    .Fundamentals h2 {
+        text-align: left;
+    }
+
+    .topics img {
+        max-height: 25%;
+        max-width: 25%;
+        cursor: pointer;
+    }
+    .topics {
+        display: inline-block;
+        margin-right: 20em;
+        margin-left: 20em;
+    }
+
+}
