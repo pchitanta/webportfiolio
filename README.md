@@ -1,6 +1,6 @@
 # website_example
 This is an Example of my Website.
-It responds to different size variations: iPhone X, iPad and Desktop PC
+It responds to different size variations: iPhone X, iPad and Desktop PC.
 You can view the Demo here: https://pchitantawebsite.netlify.app/
 
 I am aware of Frameworks like Bootstrap, React, Angular, Vue.js, etc. 
