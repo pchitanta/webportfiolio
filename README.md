@@ -1,6 +1,6 @@
 # website_example
 This is an Example of my Website.
-It responds to different size variations: iPhone X, iPad and Desktop PC.
+It responsive to different size variations: iPhone X, iPad and Desktop PC.
 You can view the Demo here: https://pchitantawebsite.netlify.app/
 
 Due to this being a short demo, lorem ipsum was used to fill the paragraphs. I intent to finish this project since I actualy want to make a blog/website about the topic mentiond in the Title.
